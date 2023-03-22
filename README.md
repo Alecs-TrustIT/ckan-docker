@@ -1,6 +1,6 @@
 <h1 align="center">CKAN Docker Compose - Open Data & GIS</h1>
 <p align="center">
-<a href="https://github.com/OpenDataGIS/ckan"><img src="https://img.shields.io/badge/Docker%20CKAN-2.9.7-brightgreen" alt="CKAN Versions"></a>
+<a href="https://github.com/OpenDataGIS/ckan"><img src="https://img.shields.io/badge/Docker%20CKAN-2.10.0-brightgreen" alt="CKAN Versions"></a>
 
 
 <p align="center">
@@ -241,7 +241,7 @@ ckan -c /srv/app/ckan.ini validation init-db
 And then in our `Dockerfile.dev` file we install the extension and copy the initialization scripts:
 
 ```Dockerfile
-FROM ckan/ckan-base:2.9.7-dev
+FROM ckan/ckan-base:2.10.0-dev
 
 RUN pip install -e git+https://github.com/frictionlessdata/ckanext-validation.git#egg=ckanext-validation && \
     pip install -r https://raw.githubusercontent.com/frictionlessdata/ckanext-validation/master/requirements.txt
