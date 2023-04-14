@@ -1,4 +1,4 @@
-# With NGINX and without ckan-pycsw
+# Docker Compose file: ckan-spatial:ckan-2.9.8 | With NGINX and without ckan-pycsw
 version: "3"
 
 volumes:

@@ -1,3 +1,4 @@
+# Docker Compose file: ckan-spatial:ckan-2.9.8
 version: "3"
 
 volumes:
